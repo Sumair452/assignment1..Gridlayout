@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/show_items_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Items" />
+
+    <Button
+        android:id="@+id/buy_items_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy Items" />
+
+    <Button
+        android:id="@+id/add_item_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Item" />
+
+    <Button
+        android:id="@+id/show_total_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Total" />
+
+    <Button
+        android:id="@+id/generate_bill_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Bill" />
+</LinearLayout>
